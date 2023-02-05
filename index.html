@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+
+    <section id="clock-login-box">
+        <h2 id="clock">00 : 00</h2>
+        <div id="login-box">
+            <form class="hidden" id="login-form">
+                <input required maxlength="15" type="text" placeholder="What is your name?">
+                <label for="login-form"></label>
+                <!-- <button>Log In</button> -->
+            </form>
+            <h1 id="greenting" class="hidden"></h1>
+        </div>        
+    </section>
+    <section id="todo-box">        
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and press Enter." required>
+        </form>
+    
+        <ul id="todo-list"></ul>
+    </section id="main">
+    
+    <section id="quote-box">
+        <div id="quote">
+            <span></span><br>
+            <span></span>
+        </div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+    
+    <script src="js/greenting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
